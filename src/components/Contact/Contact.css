@@ -1,0 +1,79 @@
+.contacts{
+    
+}
+.contact{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.heading1{
+    
+}
+.lets-talk{
+    flex-basis: 40%;
+    text-align: left;
+}
+.lets-talk h1{
+    background: linear-gradient(rgb(213, 34, 180),50%,rgb(205, 140, 19));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 37px;
+}
+.lets-talk p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.lets-talk ul{
+    list-style: none;
+    padding: 0;
+}
+.lets-talk ul li{
+    font-size: 14px;
+    margin: 20px 0;
+    color: #fff;
+
+}
+.icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.social-media icon{
+    margin-right: 20px;
+}
+.form{
+    flex-basis: 60%;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 14px;
+
+}
+.form form input, .form form textarea{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    background: #32323c;
+    border-style: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    color: #9f9898;
+}
+.form form input{
+    height: 40px;
+}
+.form form textarea{
+    padding-top: 10px;
+}
+.contact-btn{
+    margin-top: 10px;
+}
+.line{
+    height: 1.5px;
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    margin-top: 20px;
+}

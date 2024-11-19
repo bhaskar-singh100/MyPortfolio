@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 70px;
+    position: fixed;
+    top: 0;
+    width: 1080px;
+    
+    
+}
+.dark-nav{
+    transition: 0.5s;
+    z-index: 5;
+    backdrop-filter: blur(5px);
+    
+}
+.navbar h1{
+    color: #fff;
+    margin: 0;
+}
+.navbar .nav-menu{
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.navbar .active{
+    border-bottom: 2px solid rgb(219, 44, 219);
+}
+
+.navbar ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+    height: 25px;
+}
+
+.navbar .nav-btn{
+    margin-bottom: 2px;
+}
