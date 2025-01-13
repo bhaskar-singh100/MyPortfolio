@@ -1,8 +1,19 @@
+@keyframes appear {
+    from{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 .hero{
-    
+    animation: appear 0.5s linear;
     max-width: 600px;
     text-align: center;
     margin: 120px auto 70px auto;
+    
 }
 .hero img{
     width: 200px;

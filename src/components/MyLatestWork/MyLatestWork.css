@@ -11,9 +11,8 @@
 
 
 .projects img:hover{
-    scale: 1.06;
-    border: 4px solid rgb(255, 0, 255);
-    border-radius: 15px;
+    scale: 1.04;
+    border-radius: 8px;
 }
 .projects img{
     width: 320px;

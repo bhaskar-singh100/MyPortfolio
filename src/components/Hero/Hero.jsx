@@ -11,7 +11,18 @@ const Hero = () => {
         I am a frontend developer from California, USA with 10 years of
         experience in multiple companies like Microsoft, Tesla and Apple.
       </p>
-      <button className="btn"><a href="../..Bhaskar_resume.pdf" download></a> My Resume</button>
+      <button 
+        className="btn"
+        onClick={() => {
+            const link = document.createElement('a');
+            link.href = "../assets/BhaskarSingh_Resume.pdf";
+            link.download = "BhaskarSingh_Resume.pdf";
+            link.click();
+        }}
+    >
+        My Resume
+    </button>
+
     </div>
   );
 };

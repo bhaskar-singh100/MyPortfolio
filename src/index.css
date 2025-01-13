@@ -4,12 +4,14 @@ body{
   margin: 0;
   background-color: rgb(26, 25, 25);
   font-family: "Outfit", system-ui;
+  overflow-x: hidden;
 }
 
 .container{
   padding: 0 100px;
   position: relative;
 }
+
 .btn{
   border-radius: 30px;
   background: linear-gradient(rgb(184, 52, 160),50%,rgb(204, 142, 25));
